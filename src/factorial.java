@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class factorial {
 
     public int fac(int num){
+        if (num == 0){
+            return 1;
+        }
         int fact =1;
         for (int i= 1; i<=num; i++){
             fact = fact * i;

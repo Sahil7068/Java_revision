@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class arraylist3Methods {
+public class  arraylist3Methods {
     public static void main(String[] args) {
 
         ArrayList<String> a = new ArrayList<>();

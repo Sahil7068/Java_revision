@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class Arraylist2Iteration {
@@ -18,6 +19,11 @@ public class Arraylist2Iteration {
 
         System.out.println("------");
 
+        //for each
+        for(String s: aa){
+            System.out.println(s);
+        }
+
         // lambda
         aa.stream().forEach(ele -> System.out.println(ele));
 
@@ -29,6 +35,14 @@ public class Arraylist2Iteration {
             System.out.println(it.next());
 
         }
+
+
+        // List with other collection
+
+        ArrayList<Integer> num = new ArrayList<>(Arrays.asList(10, 20, 30, 40));
+        System.out.println(num);
+
+
 
     }
 }
